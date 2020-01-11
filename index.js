@@ -5,8 +5,6 @@ const joi = require('joi');
 const uuid = require('uuid/v4');
 const app = express();
 
-// TODO: package.json
-
 const bookSchema = joi.object().keys({
     title: joi.string().max(100).required(),
     author: joi.string().max(100).required()
