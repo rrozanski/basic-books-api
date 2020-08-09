@@ -22,7 +22,10 @@ POST /book
 
 {
  "title": string,
- "author": string
+ "author": string,
+ "pages": number,
+ "rating": number,
+ "description": string
 }
 ```
 
@@ -31,7 +34,10 @@ PUT /book/:id
 
 {
  "title": string,
- "author": string
+ "author": string,
+  "pages": number,
+  "rating": number,
+  "description": string
 }
 ```
 
